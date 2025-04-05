@@ -22,7 +22,10 @@ class DatabaseSeeder extends Seeder
         $this -> call([
             GenderSeeder::class,
             UniverseSeeder::class,
+            UserSeeder::class
         ]);
         Superhero::factory(100)->create();
     }
 }
+
+
